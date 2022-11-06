@@ -1,0 +1,93 @@
+.header-flex{
+    display: flex;
+    background-color: rgb(255, 167, 27);
+    height:10vh ;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+}
+.button-flex{
+    display: flex;
+    border-style: hidden;
+    margin-left: -60%;
+    height: 5vh; 
+}
+.blue-space{
+    height:180vh;
+    background-color: rgb(1, 62, 204);
+    text-align: center;
+    color:white;   
+    padding-top: 10vh;
+}
+.blue-space h1{
+    color: rgb(255, 167, 27);
+    font-size: 75px;
+}
+.circle-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    
+    
+}
+.circle{
+    border: none;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: white;
+    width: 9vw;
+    height: 13vh;
+    font-weight:bold ;
+}
+
+.circle-flex  a{
+    text-decoration:none;
+    font-size: 25px;  
+    vertical-align: middle;
+    padding-top: 6vh;
+    color:rgb(255, 167, 27); ;
+}
+
+.circle-flex :hover{
+    margin-top: -8px;
+    /* border-color: rgb(255, 167, 27); */
+    border: 3px solid rgb(255, 167, 27);
+}
+.container-cards{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 17vh;
+    justify-content:space-between;
+}
+.card{
+    width: 45vh;
+    height:28vw ;
+    background-color:white ;
+    border-radius: 20px;
+   padding: 10px;
+
+}
+.card h1{
+    color: rgb(255, 167, 27);
+    
+}
+.card p{
+    color: black;
+}
+.card h2{
+    color: rgb(1, 62, 204);;
+}
+
+.card button{
+   border:none ;
+    background-color: rgb(255, 167, 27);
+    color: white;
+     height: 6vh;
+      width: 8vw; 
+      border-radius: 10px;
+       font-size: larger;
+}
+
+
+   
