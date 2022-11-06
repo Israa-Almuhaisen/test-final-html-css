@@ -13,7 +13,7 @@
     height: 5vh; 
 }
 .blue-space{
-    height:180vh;
+    height:190vh;
     background-color: rgb(1, 62, 204);
     text-align: center;
     color:white;   
@@ -58,35 +58,75 @@
     width: 80%;
     margin-left: 10%;
     margin-top: 17vh;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    line-height: 2rem;
 }
 .card{
-    width: 45vh;
+    width: 42vh;
     height:28vw ;
     background-color:white ;
     border-radius: 20px;
-   padding: 10px;
+    padding: 20px;
+    text-align: left;
+
 
 }
 .card h1{
     color: rgb(255, 167, 27);
-    
+    font-size: 3rem;
 }
 .card p{
     color: black;
 }
 .card h2{
-    color: rgb(1, 62, 204);;
+    color: rgb(1, 62, 204);
+    font-size: 2.5rem;
+    font-weight: 100;
+
 }
 
 .card button{
    border:none ;
     background-color: rgb(255, 167, 27);
     color: white;
-     height: 6vh;
-      width: 8vw; 
-      border-radius: 10px;
-       font-size: larger;
+    height: 6vh;
+    width: 8vw; 
+    border-radius: 10px;
+    font-size: larger;
+}
+.sec2{
+    background-color: rgb(255, 167, 27) ; 
+    height: 45vh;
+
+}
+.sec3-background{
+    background-color: rgb(1, 62, 204) ;
+    height: 100vh;
+}
+.sec3{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 5vh;
+    line-height: 2rem;
+
+}
+.sec3 h6{
+    color: white;
+    font-size: 1.4rem;
+
+    
+
+}
+.sec3 h1{
+    color:rgb(255, 167, 27) ;
+    font-size: 3.9rem;
+    
+}
+.sec3 p{
+    color: white;
+    padding-left: 10%;
+    font-size: 1.2rem;
 }
 
 
